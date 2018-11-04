@@ -11,6 +11,10 @@ package mus.Remidial;
  */
 public class Main {
     public static void main(String[] args) {
-        
+        Penyewa p = new Penyewa("221","Hidayat");
+        Karyawan k = new Karyawan("331","Gege");
+        LamaSewa waktu = new LamaSewa(4);
+        Dvd d = new Dvd("1345er","Avenger Invinity War",p,waktu,k);
+        System.out.println(d.info());
     }
 }
