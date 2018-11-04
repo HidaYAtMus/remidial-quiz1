@@ -33,7 +33,7 @@ public class Karyawan {
     public void setNamakaryawan(String namakaryawan) {
         this.namakaryawan = namakaryawan;
     }
-    
+    //method untuk menampilkan data karyawan 
      public String info(){
         String info ="";
         info += "id karyawan    : " + this.idkaryawan + "\n";
