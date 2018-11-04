@@ -34,5 +34,10 @@ public class Karyawan {
         this.namakaryawan = namakaryawan;
     }
     
-    
+     public String info(){
+        String info ="";
+        info += "id karyawan    : " + this.idkaryawan + "\n";
+        info += "Nama karyawan  : " + this.namakaryawan + "\n";
+        return info;
+    }
 }
