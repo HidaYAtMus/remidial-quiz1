@@ -63,7 +63,7 @@ public class Dvd {
     public void setKaryawan(Karyawan karyawan) {
         this.karyawan = karyawan;
     }
-    
+    //metod untuk menampilkan data penyewaan
     public String info(){
         String info ="";
         info += "Kode DVD : " + this.kode + "\n";
