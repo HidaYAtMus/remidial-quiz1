@@ -10,5 +10,6 @@ package mus.Remidial;
  * @author HP
  */
 public class Penyewa {
-    
+    private String idpenyewa;
+    private String namapenyewa;
 }
