@@ -33,11 +33,11 @@ public class Penyewa {
     public void setNamapenyewa(String namapenyewa) {
         this.namapenyewa = namapenyewa;
     }
-    
+    //mathoed untuk mwmpilkan data penyewa
     public String info(){
         String info = "";
-        info += "id penyewa     : " + idpenyewa + "\n";
-        info += "Nama penyewa   : " + namapenyewa + "\n";
+        info += "id penyewa\t:" + idpenyewa + "\n";
+        info += "Nama penyewa\t: " + namapenyewa + "\n";
         return info;
     }
 }
