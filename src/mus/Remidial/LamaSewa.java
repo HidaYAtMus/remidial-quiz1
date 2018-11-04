@@ -23,10 +23,10 @@ public class LamaSewa {
     public void setLamasewa(int lamasewa) {
         this.lamasewa = lamasewa;
     }
-    
+    //method untuk menmapilkan lama sewa
     public String info(){
         String info ="";
-        info += "Lama sewa : " + this.lamasewa + "hari";
+        info += "Lama sewa\t:" + this.lamasewa + "hari";
         return info;
     }
 }
